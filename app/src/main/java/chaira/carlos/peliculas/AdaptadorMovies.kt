@@ -16,7 +16,7 @@ class AdaptadorMovies:BaseAdapter {
     constructor(context: Context, pelis:ArrayList<Pelicula>)
     {
         this.context=context
-        this.peliculas=peliculas
+        this.peliculas=pelis
     }
 
     override fun getCount(): Int {
